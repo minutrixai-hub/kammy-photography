@@ -1,1 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KAMMY PHOTOGRAPHY | Wedding &amp; Event Photography in Hyderabad</title>
+  <meta name="description" content="KAMMY PHOTOGRAPHY is a Hyderabad based studio capturing weddings, bridal portraits and events across Telangana and India, from haldi and mehendi to the reception." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Caveat:wght@500;600;700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;500&family=Inter:wght@300;400;500&family=Karla:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
 
+  <!-- Signature camera lens: fixed, behind content, drives the scroll journey -->
+  <div class="lens" id="lens" aria-hidden="true">
+    <img src="assets/hero-lens.png" alt="" />
+    <span class="lens__glint"></span>
+  </div>
+
+  <!-- ===================== NAV ===================== -->
+  <header class="nav">
+    <a class="nav__logo" href="#top" aria-label="KAMMY PHOTOGRAPHY home">
+      <img src="assets/logo.png" alt="KAMMY PHOTOGRAPHY" />
+      <span class="nav__logo-text">Kammy Photography</span>
+    </a>
+    <input type="checkbox" id="nav-toggle" class="nav__checkbox" />
+    <label for="nav-toggle" class="nav__burger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </label>
+    <nav class="nav__links">
+      <a href="#top" class="is-active">Home</a>
+      <a href="#services">Services</a>
+      <a href="#instagram">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="top">
+    <div class="hero__inner">
+      <p class="hero__eyebrow">a Hyderabad wedding <span>storybook</span></p>
+      <h1 class="hero__title">Capturing<br /><em>Moments</em></h1>
+      <p class="hero__sub">
+        A Hyderabad based photography studio crafting timeless wedding and
+        portrait stories, from the first haldi to the final farewell, across
+        Telangana and all of India.
+      </p>
+      <a class="btn-glass" href="#work">
+        View Projects
+        <svg class="btn-glass__icon" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+          <path d="M8 3v8m0 0L4.5 7.5M8 11l3.5-3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </a>
+      <div class="hero__thumbs">
+        <span class="hero__thumb"><img src="https://images.unsplash.com/photo-1610173827043-9db50e0d8ef9?auto=format&fit=crop&w=220&q=80" alt="Bridal portrait" /></span>
+        <span class="hero__thumb"><img src="https://images.unsplash.com/photo-1621801306185-8c0ccf9c8eb8?auto=format&fit=crop&w=220&q=80" alt="Couple hands with mehendi" /></span>
+        <span class="hero__thumb"><img src="https://images.unsplash.com/photo-1505932794465-147d1f1b2c97?auto=format&fit=crop&w=220&q=80" alt="Mehendi ceremony" /></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section class="about" id="about">
+    <span class="about__watermark" aria-hidden="true">About</span>
+    <div class="about__copy reveal">
+      <h2 class="about__heading">Where light meets story</h2>
+      <p>
+        Based in the heart of Hyderabad, Kammy Photography is devoted to the art
+        of celebration. From intimate haldi mornings and joyful mehendi evenings
+        to grand sangeet nights and reception finales, we capture the colour,
+        emotion and ritual of every occasion. We serve couples and families
+        across Telangana and India, crafting frames meant to be treasured, not
+        just seen.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===================== OUR SERVICES ===================== -->
+  <section class="services" id="services">
+    <div class="section-head reveal">
+      <span class="eyebrow">what we capture</span>
+      <h2 class="section-title">Our Services</h2>
+      <p class="section-lead">
+        Every celebration tells a different story. From bridal portraits to full
+        cinematic wedding films, here is how we help you keep yours, wherever in
+        Hyderabad, Telangana or India you are celebrating.
+      </p>
+    </div>
+    <div class="services__grid">
+      <a class="service-card reveal" data-tilt href="services/portraits.html">
+        <div class="service-card__media"><img src="https://images.unsplash.com/photo-1581841064838-a470c740e8ee?auto=format&fit=crop&w=600&q=80" alt="Studio portrait" /></div>
+        <div class="service-card__body"><span class="service-card__no">01</span><h3>Portraits</h3><p>Timeless studio and lifestyle portraits that feel like you.</p><span class="service-card__more">Explore</span></div>
+      </a>
+      <a class="service-card reveal reveal--delay-1" data-tilt href="services/bridal-shoots.html">
+        <div class="service-card__media"><img src="https://images.unsplash.com/photo-1617633150878-7df1d12a9a57?auto=format&fit=crop&w=600&q=80" alt="Indian bride" /></div>
+        <div class="service-card__body"><span class="service-card__no">02</span><h3>Bridal Shoots</h3><p>Solo bridal sessions capturing every detail of your look.</p><span class="service-card__more">Explore</span></div>
+      </a>
+      <a class="service-card reveal reveal--delay-2" data-tilt href="services/weddings.html">
+        <div class="service-card__media"><img src="https://images.unsplash.com/photo-1587271636175-90d58cdad458?auto=format&fit=crop&w=600&q=80" alt="Wedding mandap" /></div>
+        <div class="service-card__body"><span class="service-card__no">03</span><h3>Weddings</h3><p>Full day coverage from baraat and pheras to the vidaai.</p><span class="service-card__more">Explore</span></div>
+      </a>
+      <a class="service-card reveal" data-tilt href="services/fashion-photography.html">
+        <div class="service-card__media"><img src="https://images.unsplash.com/photo-1603189343302-e603f7add05a?auto=format&fit=crop&w=600&q=80" alt="Fashion editorial model" /></div>
+        <div class="service-card__body"><span class="service-card__no">04</span><h3>Fashion Photography</h3><p>Editorial shoots styled with a designer eye for detail.</p><span class="service-card__more">Explore</span></div>
+      </a>
+      <a class="service-card reveal reveal--delay-1" data-tilt href="services/traditional-photography.html">
+        <div class="service-card__media"><img src="https://images.unsplash.com/photo-1659352790654-058e9077a4f4?auto=format&fit=crop&w=600&q=80" alt="Indian family portrait" /></div>
+        <div class="service-card__body"><span class="service-card__no">05</span><h3>Traditional Photography</h3><p>Classic, posed frames for the family album to cherish.</p><span class="service-card__more">Explore</span></div>
+      </a>
+      <a class="service-card reveal reveal--delay-2" data-tilt href="services/corporate-shoots.html">
+        <div class="service-card__media"><img src="https://images.unsplash.com/photo-1627161683077-e34782c24d81?auto=format&fit=crop&w=600&q=80" alt="Professional headshot" /></div>
+        <div class="service-card__body"><span class="service-card__no">06</span><h3>Corporate Shoots</h3><p>Polished headshots and team portraits for your brand.</p><span class="service-card__more">Explore</span></div>
+      </a>
+      <a class="service-card reveal" data-tilt href="services/commercial-shoots.html">
+        <div class="service-card__media"><img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80" alt="Product photography" /></div>
+        <div class="service-card__body"><span class="service-card__no">07</span><h3>Commercial Shoots</h3><p>Product and campaign imagery designed to sell.</p><span class="service-card__more">Explore</span></div>
+      </a>
+      <a class="service-card reveal reveal--delay-1" data-tilt href="services/brand-photography.html">
+        <div class="service-card__media"><img src="https://images.unsplash.com/photo-1636971828014-0f3493cba88a?auto=format&fit=crop&w=600&q=80" alt="Brand and creator photography" /></div>
+        <div class="service-card__body"><span class="service-card__no">08</span><h3>Brand Photography</h3><p>A cohesive visual identity for businesses and creators.</p><span class="service-card__more">Explore</span></div>
+      </a>
+      <a class="service-card reveal reveal--delay-2" data-tilt href="services/pre-wedding-photography.html">
+        <div class="service-card__media"><img src="https://images.unsplash.com/photo-1630526720753-aa4e71acf67d?auto=format&fit=crop&w=600&q=80" alt="Couple outdoors" /></div>
+        <div class="service-card__body"><span class="service-card__no">09</span><h3>Pre-Wedding Photography</h3><p>Story driven couple shoots across Hyderabad and Telangana.</p><span class="service-card__more">Explore</span></div>
+      </a>
+      <a class="service-card reveal" data-tilt href="services/event-photography.html">
+        <div class="service-card__media"><img src="https://images.unsplash.com/photo-1505932794465-147d1f1b2c97?auto=format&fit=crop&w=600&q=80" alt="Mehendi celebration" /></div>
+        <div class="service-card__body"><span class="service-card__no">10</span><h3>Event Photography</h3><p>Sangeet, mehendi and reception celebrations, beautifully covered.</p><span class="service-card__more">Explore</span></div>
+      </a>
+      <a class="service-card reveal reveal--delay-1" data-tilt href="services/themed-photography.html">
+        <div class="service-card__media"><img src="https://images.unsplash.com/photo-1562151270-c7d22ceb586a?auto=format&fit=crop&w=600&q=80" alt="Concept themed shoot" /></div>
+        <div class="service-card__body"><span class="service-card__no">11</span><h3>Themed Photography</h3><p>Concept sets and styling designed around your vision.</p><span class="service-card__more">Explore</span></div>
+      </a>
+      <a class="service-card reveal reveal--delay-2" data-tilt href="services/cinematic-videography.html">
+        <div class="service-card__media"><img src="https://images.unsplash.com/photo-1612548403247-aa2873e9422d?auto=format&fit=crop&w=600&q=80" alt="Cinema camera" /></div>
+        <div class="service-card__body"><span class="service-card__no">12</span><h3>Cinematic Videography</h3><p>Film style wedding reels, event videography and HD live streaming.</p><span class="service-card__more">Explore</span></div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===================== OUR WORK ===================== -->
+  <section class="work" id="work">
+    <img class="work__bg" src="assets/work-bg.png" alt="" aria-hidden="true" />
+    <div class="section-head reveal">
+      <span class="eyebrow">from our albums</span>
+      <h2 class="section-title">Our Work</h2>
+      <p class="section-lead">
+        Discover our portfolio of Hyderabad weddings and portraits, where each
+        image embodies our commitment to precision and storytelling. From haldi
+        and mehendi to grand receptions, our work reflects the artistry of
+        capturing unique narratives. Explore the essence of our photography in
+        every moment captured.
+      </p>
+    </div>
+    <div class="work__grid reveal">
+      <figure class="work__card work__card--tall"><img src="https://images.unsplash.com/photo-1654764746225-e63f5e90facd?auto=format&fit=crop&w=800&q=80" alt="Bride in a red lehenga" /></figure>
+      <figure class="work__card"><img src="https://images.unsplash.com/flagged/photo-1551854716-8b811be39e7e?auto=format&fit=crop&w=600&q=80" alt="South Indian bride portrait" /></figure>
+      <figure class="work__card"><img src="https://images.unsplash.com/photo-1587271636175-90d58cdad458?auto=format&fit=crop&w=600&q=80" alt="Wedding mandap ceremony" /></figure>
+      <figure class="work__card"><img src="https://images.unsplash.com/photo-1630526720753-aa4e71acf67d?auto=format&fit=crop&w=600&q=80" alt="Couple pre wedding shoot" /></figure>
+      <figure class="work__card"><img src="https://images.unsplash.com/photo-1727430256509-0f897d6f4765?auto=format&fit=crop&w=600&q=80" alt="Candid couple moment" /></figure>
+    </div>
+  </section>
+
+  <!-- ===================== MOON DIVIDER ===================== -->
+  <div class="moon-divider reveal">
+    <img src="assets/moon-phases.png" alt="Moon phases" />
+  </div>
+
+  <!-- ===================== CLIENTS ===================== -->
+  <section class="clients" id="clients">
+    <img class="clients__bg" src="assets/clients-bg.png" alt="" aria-hidden="true" />
+    <span class="eyebrow reveal">in their words</span>
+    <h2 class="section-title clients__title reveal">What Our Clients Say</h2>
+    <div class="testimonial reveal">
+      <img class="testimonial__side testimonial__side--far-left" src="https://images.unsplash.com/photo-1587271636175-90d58cdad458?auto=format&fit=crop&w=500&q=80" alt="" aria-hidden="true" />
+      <img class="testimonial__side testimonial__side--left" src="https://images.unsplash.com/photo-1597157639073-69284dc0fdaf?auto=format&fit=crop&w=500&q=80" alt="" aria-hidden="true" />
+      <figure class="testimonial__card">
+        <video class="testimonial__photo" autoplay muted loop playsinline preload="metadata"
+                poster="https://images.unsplash.com/photo-1542042161784-26ab9e041e89?auto=format&fit=crop&w=1000&q=80">
+          <source src="https://videos.pexels.com/video-files/4446328/4446328-hd_1920_1080_25fps.mp4" type="video/mp4" />
+          <source src="https://videos.pexels.com/video-files/4446328/4446328-sd_960_540_25fps.mp4" type="video/mp4" />
+        </video>
+        <img class="testimonial__avatar" src="https://images.unsplash.com/photo-1600685890506-593fdf55949b?auto=format&fit=crop&w=160&q=80" alt="Client portrait" />
+      </figure>
+      <img class="testimonial__side testimonial__side--right" src="https://images.unsplash.com/photo-1621801306185-8c0ccf9c8eb8?auto=format&fit=crop&w=500&q=80" alt="" aria-hidden="true" />
+      <img class="testimonial__side testimonial__side--far-right" src="https://images.unsplash.com/photo-1505932794465-147d1f1b2c97?auto=format&fit=crop&w=500&q=80" alt="" aria-hidden="true" />
+    </div>
+    <blockquote class="testimonial__quote reveal">
+      "From our mehendi to the reception, the Kammy team felt like family. They
+      caught every glance, every happy tear and every dance, and our album still
+      gives us goosebumps. We could not have asked for a better team to document
+      our wedding in Hyderabad."
+      <cite class="testimonial__cite">Priya &amp; Arjun, Hyderabad</cite>
+    </blockquote>
+
+    <!-- Horizontal looping testimonials -->
+    <div class="tmarquee" aria-label="More client reviews">
+      <div class="tmarquee__track">
+        <article class="tcard"><p>"They covered our haldi, mehendi and the wedding with such warmth. Every photo feels like a memory we can step back into."</p><cite>Sneha &amp; Rohan, Hyderabad</cite></article>
+        <article class="tcard"><p>"The cinematic film brought our whole family to tears. Worth every rupee, and the team was a joy to have around all day."</p><cite>Divya &amp; Karthik, Secunderabad</cite></article>
+        <article class="tcard"><p>"Our pre-wedding shoot at Golconda Fort came out stunning. They made two camera-shy people look like naturals."</p><cite>Ananya &amp; Vikram, Hyderabad</cite></article>
+        <article class="tcard"><p>"Professional, punctual and so creative. The reception highlights were ready for us to share the very next morning."</p><cite>Meghana &amp; Sai, Warangal</cite></article>
+        <article class="tcard" aria-hidden="true"><p>"They covered our haldi, mehendi and the wedding with such warmth. Every photo feels like a memory we can step back into."</p><cite>Sneha &amp; Rohan, Hyderabad</cite></article>
+        <article class="tcard" aria-hidden="true"><p>"The cinematic film brought our whole family to tears. Worth every rupee, and the team was a joy to have around all day."</p><cite>Divya &amp; Karthik, Secunderabad</cite></article>
+        <article class="tcard" aria-hidden="true"><p>"Our pre-wedding shoot at Golconda Fort came out stunning. They made two camera-shy people look like naturals."</p><cite>Ananya &amp; Vikram, Hyderabad</cite></article>
+        <article class="tcard" aria-hidden="true"><p>"Professional, punctual and so creative. The reception highlights were ready for us to share the very next morning."</p><cite>Meghana &amp; Sai, Warangal</cite></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== INSTAGRAM ===================== -->
+  <section class="insta" id="instagram">
+    <div class="insta__head reveal">
+      <span class="eyebrow">follow the reels</span>
+      <h2 class="insta__title">On Instagram</h2>
+      <p class="insta__handle"><a href="https://www.instagram.com/" target="_blank" rel="noopener">@kammyphotography</a></p>
+    </div>
+
+    <!-- Reels: vertical autoplaying clips, scroll sideways -->
+    <div class="reels reveal" aria-label="Latest reels">
+      <a class="reel" href="https://www.instagram.com/" target="_blank" rel="noopener">
+        <video autoplay muted loop playsinline preload="metadata"
+               poster="https://images.unsplash.com/photo-1610047614301-13c63f00c032?auto=format&fit=crop&w=540&q=80">
+          <source src="https://videos.pexels.com/video-files/4446328/4446328-hd_1920_1080_25fps.mp4" type="video/mp4" />
+        </video>
+        <span class="reel__badge" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M7 4v16M17 4v16M3 9h18M3 15h18M3 12h18" stroke="currentColor" stroke-width="1.4"/><path d="M10 9.5v5l4.5-2.5L10 9.5z" fill="currentColor"/></svg>
+        </span>
+        <span class="reel__cap">Haldi mornings</span>
+      </a>
+      <a class="reel" href="https://www.instagram.com/" target="_blank" rel="noopener">
+        <video autoplay muted loop playsinline preload="metadata"
+               poster="https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=540&q=80">
+          <source src="https://videos.pexels.com/video-files/3205624/3205624-uhd_1440_2732_25fps.mp4" type="video/mp4" />
+          <source src="https://videos.pexels.com/video-files/4133023/4133023-hd_1080_1920_25fps.mp4" type="video/mp4" />
+        </video>
+        <span class="reel__badge" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M7 4v16M17 4v16M3 9h18M3 15h18M3 12h18" stroke="currentColor" stroke-width="1.4"/><path d="M10 9.5v5l4.5-2.5L10 9.5z" fill="currentColor"/></svg>
+        </span>
+        <span class="reel__cap">Bridal close-ups</span>
+      </a>
+      <a class="reel" href="https://www.instagram.com/" target="_blank" rel="noopener">
+        <video autoplay muted loop playsinline preload="metadata"
+               poster="https://images.unsplash.com/photo-1599462616558-2b75fd26a283?auto=format&fit=crop&w=540&q=80">
+          <source src="https://videos.pexels.com/video-files/8819520/8819520-hd_1080_1920_25fps.mp4" type="video/mp4" />
+          <source src="https://videos.pexels.com/video-files/4587959/4587959-hd_1080_1920_25fps.mp4" type="video/mp4" />
+        </video>
+        <span class="reel__badge" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M7 4v16M17 4v16M3 9h18M3 15h18M3 12h18" stroke="currentColor" stroke-width="1.4"/><path d="M10 9.5v5l4.5-2.5L10 9.5z" fill="currentColor"/></svg>
+        </span>
+        <span class="reel__cap">Mandap moments</span>
+      </a>
+      <a class="reel" href="https://www.instagram.com/" target="_blank" rel="noopener">
+        <video autoplay muted loop playsinline preload="metadata"
+               poster="https://images.unsplash.com/photo-1619516388835-2b60acc4049e?auto=format&fit=crop&w=540&q=80">
+          <source src="https://videos.pexels.com/video-files/6979246/6979246-hd_1080_1920_30fps.mp4" type="video/mp4" />
+          <source src="https://videos.pexels.com/video-files/4133023/4133023-hd_1080_1920_25fps.mp4" type="video/mp4" />
+        </video>
+        <span class="reel__badge" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M7 4v16M17 4v16M3 9h18M3 15h18M3 12h18" stroke="currentColor" stroke-width="1.4"/><path d="M10 9.5v5l4.5-2.5L10 9.5z" fill="currentColor"/></svg>
+        </span>
+        <span class="reel__cap">Sangeet nights</span>
+      </a>
+      <a class="reel" href="https://www.instagram.com/" target="_blank" rel="noopener">
+        <video autoplay muted loop playsinline preload="metadata"
+               poster="https://images.unsplash.com/photo-1665960213508-48f07086d49c?auto=format&fit=crop&w=540&q=80">
+          <source src="https://videos.pexels.com/video-files/5538137/5538137-hd_1080_1920_25fps.mp4" type="video/mp4" />
+          <source src="https://videos.pexels.com/video-files/4446328/4446328-sd_960_540_25fps.mp4" type="video/mp4" />
+        </video>
+        <span class="reel__badge" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M7 4v16M17 4v16M3 9h18M3 15h18M3 12h18" stroke="currentColor" stroke-width="1.4"/><path d="M10 9.5v5l4.5-2.5L10 9.5z" fill="currentColor"/></svg>
+        </span>
+        <span class="reel__cap">Reception finale</span>
+      </a>
+      <a class="reel" href="https://www.instagram.com/" target="_blank" rel="noopener">
+        <video autoplay muted loop playsinline preload="metadata"
+               poster="https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=540&q=80">
+          <source src="https://videos.pexels.com/video-files/7140332/7140332-hd_1080_1920_25fps.mp4" type="video/mp4" />
+          <source src="https://videos.pexels.com/video-files/3205624/3205624-uhd_1440_2732_25fps.mp4" type="video/mp4" />
+        </video>
+        <span class="reel__badge" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M7 4v16M17 4v16M3 9h18M3 15h18M3 12h18" stroke="currentColor" stroke-width="1.4"/><path d="M10 9.5v5l4.5-2.5L10 9.5z" fill="currentColor"/></svg>
+        </span>
+        <span class="reel__cap">Pre-wedding films</span>
+      </a>
+    </div>
+
+    <div class="insta__grid reveal">
+      <a class="insta__item insta__item--a" href="https://www.instagram.com/" target="_blank" rel="noopener"><img src="https://images.unsplash.com/photo-1587271315307-eaebc181c749?auto=format&fit=crop&w=500&q=80" alt="Bride getting ready" /></a>
+      <a class="insta__item insta__item--b" href="https://www.instagram.com/" target="_blank" rel="noopener"><img src="https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=500&q=80" alt="South Indian bride in a silk saree" /></a>
+      <a class="insta__item insta__item--c" href="https://www.instagram.com/" target="_blank" rel="noopener"><img src="https://images.unsplash.com/photo-1599462616558-2b75fd26a283?auto=format&fit=crop&w=700&q=80" alt="Couple in traditional attire" /></a>
+      <a class="insta__item insta__item--d" href="https://www.instagram.com/" target="_blank" rel="noopener"><img src="https://images.unsplash.com/photo-1619516388835-2b60acc4049e?auto=format&fit=crop&w=500&q=80" alt="Bride in a pink saree" /></a>
+      <a class="insta__item insta__item--e" href="https://www.instagram.com/" target="_blank" rel="noopener"><img src="https://images.unsplash.com/photo-1665960213508-48f07086d49c?auto=format&fit=crop&w=700&q=80" alt="Couple at their reception" /></a>
+      <a class="insta__item insta__item--f" href="https://www.instagram.com/" target="_blank" rel="noopener"><img src="https://images.unsplash.com/photo-1610047614301-13c63f00c032?auto=format&fit=crop&w=500&q=80" alt="Bride in red and gold" /></a>
+    </div>
+  </section>
+
+  <!-- ===================== CTA ===================== -->
+  <section class="cta">
+    <div class="cta__card reveal">
+      <img class="cta__bg" src="https://images.unsplash.com/photo-1587271407850-8d438ca9fdf2?auto=format&fit=crop&w=1600&q=80" alt="" aria-hidden="true" />
+      <div class="cta__glow" aria-hidden="true"></div>
+      <div class="cta__content">
+        <h2 class="cta__title">Capturing the best moments for you</h2>
+        <p class="cta__text">
+          Planning a wedding, pre wedding or celebration in Hyderabad? Let us
+          tell your story beautifully. Book your date early, as our calendar
+          fills fast through the wedding season across Telangana and India.
+        </p>
+        <a class="btn-pill" href="#contact">Book Appointment</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer" id="contact">
+    <img class="footer__bg" src="assets/footer-bg.png" alt="" aria-hidden="true" />
+    <div class="footer__inner">
+      <div class="footer__col footer__newsletter">
+        <p class="footer__eyebrow">No spam, just pretty pictures.</p>
+        <p class="footer__pitch">Get wedding tips and new work in your inbox</p>
+        <form class="footer__form" onsubmit="return false;">
+          <input type="email" placeholder="you@email.com" aria-label="Email address" />
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+
+      <div class="footer__col">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#top">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#instagram">Portfolio</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h3>Services</h3>
+        <ul>
+          <li><a href="services/weddings.html">Weddings</a></li>
+          <li><a href="services/bridal-shoots.html">Bridal Shoots</a></li>
+          <li><a href="services/pre-wedding-photography.html">Pre-Wedding Photography</a></li>
+          <li><a href="services/cinematic-videography.html">Cinematic Videography</a></li>
+          <li><a href="services/event-photography.html">Event Photography</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h3>Contact Info</h3>
+        <address>
+          Banjara Hills, Road No. 12<br />Hyderabad, Telangana 500034, India<br />
+          +91 98765 43210<br />
+          kaushik@kammyphotography.com
+        </address>
+      </div>
+    </div>
+    <div class="footer__bar">
+      <p>Copyrights &copy; 2026 Kammy Photography. All Rights Reserved.</p>
+      <p class="footer__legal">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <span aria-hidden="true">&middot;</span>
+        <a href="terms.html">Terms &amp; Conditions</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+  <script src="transition.js"></script>
+  <script src="motion.js"></script>
+</body>
+</html>
